@@ -1,0 +1,11 @@
+myfile = open("keyvalue.txt", "r")
+
+for line in myfile:
+	if 'key' in line:
+		val = line.split('=')[-1].strip()
+		if '#' in val:
+			totalval = val.split('#')[0].strip()
+	
+print(totalval)
+
+
