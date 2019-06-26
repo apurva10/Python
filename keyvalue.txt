@@ -1,0 +1,6 @@
+#Python key value pair
+
+apurva = sonak
+working = alten
+
+key = value #random key value
